@@ -1,4 +1,4 @@
-# Fall 2017
+# Boilerplate 1.0
 
 ## Installation instructions
 
