@@ -8,7 +8,7 @@
 
  * Clone this repository
 
- ```git clone https://github.com/kasperbertelsen/Fall-2017```
+ ```git clone https://github.com/kasperbertelsen/Boilerplate-1.0```
 
  * Run following commands
 
