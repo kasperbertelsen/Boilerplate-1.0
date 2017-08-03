@@ -14,8 +14,8 @@
 		<title>Creative Director &mdash; Product Designer, Kasper Bertelsen</title>
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/style.min.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Js -->
 		<!-- <script src="js/moments.js"></script> -->
