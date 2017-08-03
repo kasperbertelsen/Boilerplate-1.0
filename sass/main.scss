@@ -1,0 +1,47 @@
+@import '../vendor/bootstrap-3.37/stylesheets/bootstrap';
+
+main, section {
+    min-height: 30vh;
+    padding-bottom: 50px;
+
+    .container {
+        border-top: 1px solid #ccc;
+    }
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 0.25em;
+    position: relative;
+
+    .err {
+        visibility: hidden;
+        font-size: 0.8em;
+        color: red;
+        padding-left: 1em;
+        padding-top: 0.2em;
+    }
+
+    &.invalid, .invalid {
+        .err {
+            visibility: visible;
+        }
+    }
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+
+    input[type="checkbox"] {
+        position: relative;
+        margin-left: 0;
+        margin-right: 10px;
+        flex: 1;
+    }
+
+}
