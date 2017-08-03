@@ -1,20 +1,24 @@
-/* Main style */
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
-@import "reset.scss";
+/* =============================================
+ *  v1.0
+ *  Created by Kasper Bertelsen
+ *  url: www.kasperbertelsen.dk
+ *  03-08–2017
+ *  ---------------------------------------------
+ *  To use as font combination tester:
+ *  01. Input Google font inport link into settings
+ *  02. Change corresponding names in variables
+ *  03. Save scss files
+ * ============================================= */
 
 
-/* Colors */
-$color-primary: #23252a !default;
-$color-secondary: #848a8c !default;
-$color-tertiary: #daddde !default;
+@import "reset", "settings";
 
 /* Main style */
 html, body {
 	font-size: 0.6vw;
 	width: 100%;
 	height: 100%;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: $main-font;
 	background-color: #f0f2f5;
 		@media (max-width : 1250px) {
 			font-size: 18px;
@@ -22,7 +26,7 @@ html, body {
 	}
 
 h1{
-	font-family: 'Lora', serif;
+	font-family: $header-font;
 	color: $color-primary;
 	font-weight: 400;
 	font-size: 3.2em;
@@ -141,6 +145,7 @@ ul {
 }
 
 .item-left {
+	background-color: $color-dummy;
 	@media (max-width : 700px) {
 		width: 100%;
 		height: 50vh;
@@ -168,7 +173,7 @@ ul {
 }
 
 .image__cover {
-	background-image: url(https://source.unsplash.com/user/kasperbertelsen/likes/);
+	background-image: url(https://source.unsplash.com/user/kasperbertelsen/likes);
 	background-position: center;
 	background-size: cover;
   display: block;
@@ -176,5 +181,13 @@ ul {
   height: 100%;
 	@media (max-width : 1250px) {
 	background-position: center;
+	background-color: $color-dummy;
 		}
 }
+
+/* ==============================================
+*  v1.0
+*  Created by Kasper Bertelsen
+*  url: www.kasperbertelsen.dk
+*  03-08–2017
+============================================== */
