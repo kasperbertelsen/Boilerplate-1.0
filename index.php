@@ -26,6 +26,8 @@
                 sports and all things design.
               </p>
 
+              <a href="https://www.youtube.com/watch?v=J---aiyznGQ"><img src="/images/kcat.jpg" alt="play him off keyboard cat" /></a>
+
               <ul class="social">
                 <li><a href="http://twitter.com/kasperbertelsen/" target="_blank">
                     <svg class="social-icon" version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

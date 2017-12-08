@@ -49,11 +49,7 @@ gulp.task("useref", function(){
 });
 
 gulp.task('images', () =>
-    gulp.src('_build/img/**/*', {
-        base: "_build"
-    })
-        .pipe(imagemin())
-        .pipe(gulp.dest('_build'))
+    gulp.src('images/**/*').pipe(imagemin()).pipe(gulp.dest('_build/images/'))
 );
 
 gulp.task('copy', function(){
